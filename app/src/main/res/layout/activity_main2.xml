@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="189dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="20px"
+        android:layout_marginLeft="20px"
+        app:srcCompat="@drawable/berang_berang" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="30px"
+        android:layout_toRightOf="@id/imageView4"
+        android:text="Berang-berang adalah mamalia karnivora yang tergolong ke dalam subfamili Lutrinae. Terdapat 13 spesies berang-berang, dan semuanya merupakan hewan semiakuatik, akuatik, atau hewan laut, dan mereka memakan ikan atau invertebrata. Lutrinae adalah cabang dari famili Mustelidae."
+        android:textSize="8pt" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="191dp"
+        android:layout_height="201dp"
+        android:layout_below="@id/textView"
+        android:layout_alignRight="@id/textView"
+        android:layout_marginEnd="20px"
+        android:layout_marginRight="20px"
+        app:srcCompat="@drawable/panda" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_marginStart="30px"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="40px"
+        android:layout_marginEnd="30px"
+        android:layout_marginRight="30px"
+        android:layout_toLeftOf="@id/imageView5"
+        android:text="Panda, adalah seekor mamalia yang biasanya diklasifikasikan ke dalam keluarga beruang,[3] Ursidae, yang merupakan hewan asli Tiongkok Tengah. Panda Raksasa tinggal di wilayah pegunungan, seperti Sichuan dan Tibet. Pada setengah abad ke-20 terakhir, panda menjadi semacam lambang negara Tiongkok, dan sekarang ditampilkan pada uang emas negara tersebut."
+        android:textSize="8pt" />
+</RelativeLayout>
